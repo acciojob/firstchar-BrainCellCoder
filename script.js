@@ -1,4 +1,4 @@
-function firstChar(text) {
+function firstChar(str) {
   // your code here
 	 const trimmedStr = str.trim();
     if (trimmedStr === '') {
@@ -10,5 +10,5 @@ function firstChar(text) {
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-const text = prompt("Enter text:")
+const text = prompt("Enter text:");
 alert(firstChar(text));
